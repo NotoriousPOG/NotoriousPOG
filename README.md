@@ -1,15 +1,15 @@
 <!--
-  Synthwave GitHub profile for Stephen Starr
+  Synthwave GitHub profile for Stephen Starr (@NotoriousPOG)
   Special repo: username/username renders on https://github.com/NotoriousPOG
 -->
 
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=12,14,6&text=NotoriousPOG&fontAlignY=38&fontSize=52&fontColor=ffffff&desc=neon%20tools%20%C2%B7%20local-first%20apps%20%C2%B7%20game%20modding&descAlignY=58&descSize=16&animation=fadeIn" width="100%" alt="NotoriousPOG synthwave header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=12,14,6&text=Stephen%20Starr&fontAlignY=36&fontSize=48&fontColor=ffffff&desc=%40NotoriousPOG%20%C2%B7%20neon%20tools%20%C2%B7%20local-first%20apps%20%C2%B7%20game%20modding&descAlignY=58&descSize=15&animation=fadeIn" width="100%" alt="Stephen Starr synthwave header" />
 
   <br/>
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=FF7AE5&center=true&vCenter=true&width=620&lines=building+in+the+glow;TypeScript+%7C+Python+%7C+C;desktop+apps+%C2%B7+LAN+tools+%C2%B7+Arma)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=FF7AE5&center=true&vCenter=true&width=640&lines=Stephen+Starr;building+in+the+glow;TypeScript+%7C+Python+%7C+C;desktop+apps+%C2%B7+LAN+tools+%C2%B7+Arma)](https://git.io/typing-svg)
 
 </div>
 
@@ -17,16 +17,18 @@
 
 ```text
   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-  ▓  SYSTEM ONLINE  ·  PROFILE://NOTORIOUSPOG  ·  198X MODE  ▓
+  ▓  SYSTEM ONLINE  ·  STEPHEN STARR  ·  @NOTORIOUSPOG       ▓
   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ```
 
 ## // about
 
-I build **local-first** tools that run on your machine and your LAN: label printers, shop apps, camera pipelines, and Arma Reforger live-data mods. Prefer shipping something you can install over another cloud dashboard.
+I'm **Stephen Starr**. I build **local-first** tools that run on your machine and your LAN: label printers, shop apps, camera pipelines, and Arma Reforger live-data mods. Prefer shipping something you can install over another cloud dashboard.
 
 | signal | detail |
 | --- | --- |
+| name | Stephen Starr |
+| handle | [@NotoriousPOG](https://github.com/NotoriousPOG) |
 | stack | TypeScript, React/Next, Bun, Tauri, Python, C |
 | vibe | practical UI, network hardware, game server ops |
 | mode | ship small, keep it offline-capable |
@@ -52,7 +54,7 @@ I build **local-first** tools that run on your machine and your LAN: label print
 
 <div align="center">
 
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NotoriousPOG&show_icons=true&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA&count_private=true" alt="NotoriousPOG GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NotoriousPOG&show_icons=true&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA&count_private=true" alt="Stephen Starr GitHub stats" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotoriousPOG&layout=compact&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&text_color=E6E6FA" alt="top languages" />
 
 </div>
@@ -66,7 +68,7 @@ I build **local-first** tools that run on your machine and your LAN: label print
 ## // now playing
 
 ```diff
-+ building LAN-ready tools for shops and servers
++ Stephen Starr · building LAN-ready tools for shops and servers
 + iterating on Grandpa's Barn label printing
 # always: keep the stack boring, make the product useful
 ```
@@ -77,6 +79,6 @@ I build **local-first** tools that run on your machine and your LAN: label print
 
   <br/>
 
-  <sub>built for the night shift · stay neon</sub>
+  <sub>Stephen Starr · built for the night shift · stay neon</sub>
 
 </div>
