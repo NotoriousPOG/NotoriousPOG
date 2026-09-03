@@ -1,5 +1,5 @@
 <!--
-  Synthwave GitHub profile for NotoriousPOG
+  Synthwave GitHub profile for Stephen Starr
   Special repo: username/username renders on https://github.com/NotoriousPOG
 -->
 
