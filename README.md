@@ -10,13 +10,13 @@
 
   <br/>
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1400&color=FF7AE5&center=true&vCenter=true&width=780&lines=AI+engineering+%26+agent+systems;Security+%26+risk+governance+(NIST+AI+RMF);Full-stack+%7C+TypeScript+%7C+Python+%7C+AWS+CDK;Local-first+tools+with+production+discipline)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1400&color=FF7AE5&center=true&vCenter=true&width=820&lines=AI+engineering+%26+agent+systems;Bedrock+AI+security+automations+%7C+Wazuh;Security+%26+risk+governance+(NIST+AI+RMF);Full-stack+%7C+TypeScript+%7C+Python+%7C+AWS+CDK)](https://git.io/typing-svg)
 
   <br/>
 
   [![GitHub](https://img.shields.io/badge/GitHub-NotoriousPOG-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NotoriousPOG)
   [![AI Engineering](https://img.shields.io/badge/AI-Engineering-00F0FF?style=for-the-badge&logo=openai&logoColor=black)](https://github.com/NotoriousPOG/nist-ai-rmf-skill)
-  [![Security](https://img.shields.io/badge/Security-Governance-FF7AE5?style=for-the-badge&logo=shieldsdotio&logoColor=white)](https://www.nist.gov/itl/ai-risk-management-framework)
+  [![Security](https://img.shields.io/badge/Security-Bedrock%20%2B%20Wazuh-FF7AE5?style=for-the-badge&logo=shieldsdotio&logoColor=white)](https://github.com/NotoriousPOG)
   [![Profile views](https://komarev.com/ghpvc/?username=NotoriousPOG&color=00F0FF&style=for-the-badge)](https://github.com/NotoriousPOG)
 
 </div>
@@ -27,6 +27,7 @@
 
 - **AI engineering** — designing and shipping LLM/agent features: tools/MCP connectors, RAG, prompts/`AGENTS.md`, evals, and pre-/post-model validation gates
 - **AI security & governance** — access control, app-scoped credentials/PATs, blast-radius analysis, threat overlays, and assessments against the **NIST AI RMF Playbook**
+- Built **custom AI security automations on Amazon Bedrock** and configured **Wazuh** dashboards for detection / SOC visibility
 - **Software development** — TypeScript/Python systems with production habits: logging, monitoring, least privilege, and clear ownership — including **AWS CDK** infrastructure-as-code
 - Comfortable from **local-first / on-prem tooling** to cloud and productized AI in real applications
 - Open to collaboration on agent platforms, secure AI integrations, and governance automation
@@ -39,6 +40,7 @@
 | --- | --- |
 | **AI Engineering** | Agent runtimes, tool calling, RAG, model routing, instruction layers, eval harnesses |
 | **AI Security** | Prompt injection (direct/indirect), tool-abuse containment, scoped tokens, output trust boundaries |
+| **Security Automations** | Custom AI security workflows on **Amazon Bedrock**; **Wazuh** dashboarding and detection ops |
 | **Governance / RMF** | Inventory → measure → manage workflows mapped to NIST AI RMF (GOVERN / MAP / MEASURE / MANAGE) |
 | **Development** | Full-stack delivery, APIs, **AWS CDK** IaC, desktop/LAN services, CI, observability |
 
@@ -95,6 +97,7 @@
 
 **AI / agents**  
 ![LLMs](https://img.shields.io/badge/-LLMs%20%26%20Agents-0D1117?style=flat-square&logo=openai&logoColor=00F0FF)
+![Bedrock](https://img.shields.io/badge/-Amazon%20Bedrock-0D1117?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
 ![RAG](https://img.shields.io/badge/-RAG-0D1117?style=flat-square&logo=databricks&logoColor=FF7AE5)
 ![MCP](https://img.shields.io/badge/-MCP%20%2F%20Tools-0D1117?style=flat-square&logo=lightning&logoColor=00F0FF)
 ![Evals](https://img.shields.io/badge/-Evals%20%26%20TEVV-0D1117?style=flat-square&logo=pytest&logoColor=FF7AE5)
@@ -103,6 +106,7 @@
 **Security & delivery**  
 ![Security](https://img.shields.io/badge/-App-scoped%20auth%20%2F%20PATs-0D1117?style=flat-square&logo=auth0&logoColor=FF7AE5)
 ![Threat](https://img.shields.io/badge/-Threat%20modeling-0D1117?style=flat-square&logo=shieldsdotio&logoColor=00F0FF)
+![Wazuh](https://img.shields.io/badge/-Wazuh-0D1117?style=flat-square&logo=elasticstack&logoColor=00F0FF)
 ![AWS CDK](https://img.shields.io/badge/-AWS%20CDK-0D1117?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
 ![AWS](https://img.shields.io/badge/-AWS-0D1117?style=flat-square&logo=amazonaws&logoColor=FF9900)
 ![Linux](https://img.shields.io/badge/-Linux-0D1117?style=flat-square&logo=linux&logoColor=FF7AE5)
