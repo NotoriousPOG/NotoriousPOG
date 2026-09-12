@@ -10,7 +10,7 @@
 
   <br/>
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1400&color=FF7AE5&center=true&vCenter=true&width=820&lines=AI+engineering+%26+agent+systems;Bedrock+AI+security+automations+%7C+Wazuh;Security+%26+risk+governance+(NIST+AI+RMF);Full-stack+%7C+TypeScript+%7C+Python+%7C+AWS+CDK)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1400&color=FF7AE5&center=true&vCenter=true&width=860&lines=AI+engineering+%26+agent+systems;Bedrock+AI+security+automations+%7C+Wazuh;Linux+Sysmon+for+AI+developer+toolchains;Security+%26+NIST+AI+RMF+%7C+AWS+CDK)](https://git.io/typing-svg)
 
   <br/>
 
@@ -28,6 +28,7 @@
 - **AI engineering** — designing and shipping LLM/agent features: tools/MCP connectors, RAG, prompts/`AGENTS.md`, evals, and pre-/post-model validation gates
 - **AI security & governance** — access control, app-scoped credentials/PATs, blast-radius analysis, threat overlays, and assessments against the **NIST AI RMF Playbook**
 - Built **custom AI security automations on Amazon Bedrock** and configured **Wazuh** dashboards for detection / SOC visibility
+- Authored a **custom Linux Sysmon config for developers building with AI** (Sysmon for Linux / eBPF telemetry for agent & MCP activity, with auditd companion coverage)
 - **Software development** — TypeScript/Python systems with production habits: logging, monitoring, least privilege, and clear ownership — including **AWS CDK** infrastructure-as-code
 - Comfortable from **local-first / on-prem tooling** to cloud and productized AI in real applications
 - Open to collaboration on agent platforms, secure AI integrations, and governance automation
@@ -40,7 +41,7 @@
 | --- | --- |
 | **AI Engineering** | Agent runtimes, tool calling, RAG, model routing, instruction layers, eval harnesses |
 | **AI Security** | Prompt injection (direct/indirect), tool-abuse containment, scoped tokens, output trust boundaries |
-| **Security Automations** | Custom AI security workflows on **Amazon Bedrock**; **Wazuh** dashboarding and detection ops |
+| **Security Automations** | Custom AI security workflows on **Amazon Bedrock**; **Wazuh** dashboards; **Linux Sysmon** configs for AI/dev toolchains (agents, skills, MCP) |
 | **Governance / RMF** | Inventory → measure → manage workflows mapped to NIST AI RMF (GOVERN / MAP / MEASURE / MANAGE) |
 | **Development** | Full-stack delivery, APIs, **AWS CDK** IaC, desktop/LAN services, CI, observability |
 
@@ -71,7 +72,7 @@
 | [camera-weapon-detect](https://github.com/NotoriousPOG/camera-weapon-detect) | AI · CV · Ops | Local camera review pipeline with YOLO (optional LLM crop review) |
 | [label-printer](https://github.com/NotoriousPOG/label-printer) | Development | Production desktop app for network thermal label workflows |
 | [player-and-base-live-data](https://github.com/NotoriousPOG/player-and-base-live-data) | Development · Systems | Live JSON telemetry stream for Arma Reforger server state |
-| [consignment-suite](https://github.com/NotoriousPOG/consignment-suite) | Development | Desktop + web suite for real shop operations |
+| Linux Sysmon for AI toolchains | AI · Security · Endpoint | Custom **Sysmon for Linux** config + viewers/bridge patterns for developers building with AI (process/network tripwires for agents & MCP; auditd companion for sensitive reads) |
 
 **Standards credit:** assessments and governance work build on [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) · [AI 100-1](https://doi.org/10.6028/NIST.AI.100-1) · [Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook) · [AI 100-2](https://doi.org/10.6028/NIST.AI.100-2e2025) · [AI 600-1](https://doi.org/10.6028/NIST.AI.600-1). Independent project — **not NIST-endorsed**.
 
@@ -107,6 +108,8 @@
 ![Security](https://img.shields.io/badge/-App-scoped%20auth%20%2F%20PATs-0D1117?style=flat-square&logo=auth0&logoColor=FF7AE5)
 ![Threat](https://img.shields.io/badge/-Threat%20modeling-0D1117?style=flat-square&logo=shieldsdotio&logoColor=00F0FF)
 ![Wazuh](https://img.shields.io/badge/-Wazuh-0D1117?style=flat-square&logo=elasticstack&logoColor=00F0FF)
+![Sysmon](https://img.shields.io/badge/-Linux%20Sysmon%20(AI%20toolchain)-0D1117?style=flat-square&logo=windows&logoColor=00F0FF)
+![eBPF](https://img.shields.io/badge/-eBPF-0D1117?style=flat-square&logo=linux&logoColor=FF7AE5)
 ![AWS CDK](https://img.shields.io/badge/-AWS%20CDK-0D1117?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
 ![AWS](https://img.shields.io/badge/-AWS-0D1117?style=flat-square&logo=amazonaws&logoColor=FF9900)
 ![Linux](https://img.shields.io/badge/-Linux-0D1117?style=flat-square&logo=linux&logoColor=FF7AE5)
