@@ -8,22 +8,25 @@
 
   <br/>
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1400&color=FF7AE5&center=true&vCenter=true&width=640&lines=Desktop+apps+and+LAN+tools;TypeScript+%7C+Python+%7C+C;Label+printing+%7C+shop+software+%7C+Arma+mods)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1400&color=FF7AE5&center=true&vCenter=true&width=720&lines=Desktop+apps+and+LAN+tools;TypeScript+%7C+Python+%7C+C;NIST+AI+RMF+governance+skill;Label+printing+%7C+shop+software+%7C+Arma+mods)](https://git.io/typing-svg)
 
 </div>
 
 ## About
 
-I'm **Stephen Starr**. I write software that runs on your own computer and network: shop tools, label printers, camera review apps, and Arma Reforger server mods.
+I'm **Stephen Starr**. I write software that runs on your own computer and network: shop tools, label printers, camera review apps, Arma Reforger server mods — and practical AI governance tooling built on public standards.
 
 ## Projects
 
 | Project | Description |
 | --- | --- |
+| [nist-ai-rmf-skill](https://github.com/NotoriousPOG/nist-ai-rmf-skill) | Cursor skill to inventory & assess product AI/LLM systems against the **NIST AI RMF Playbook** (72/72) — [full credit to NIST](https://www.nist.gov/itl/ai-risk-management-framework) |
 | [label-printer](https://github.com/NotoriousPOG/label-printer) | Desktop app for designing and printing price tags to network thermal printers |
 | [camera-weapon-detect](https://github.com/NotoriousPOG/camera-weapon-detect) | Local camera review queue using YOLO (optional Grok crop review) |
 | [player-and-base-live-data](https://github.com/NotoriousPOG/player-and-base-live-data) | Arma Reforger mod that streams player positions and base state as JSON |
 | [consignment-suite](https://github.com/NotoriousPOG/consignment-suite) | Desktop + web tools for a vendor-mall consignment shop |
+
+Framework credit: [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) · [AI 100-1](https://doi.org/10.6028/NIST.AI.100-1) · [Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook) — not NIST-endorsed.
 
 ## Skills
 
