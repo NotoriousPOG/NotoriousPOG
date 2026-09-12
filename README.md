@@ -10,7 +10,7 @@
 
   <br/>
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1400&color=FF7AE5&center=true&vCenter=true&width=780&lines=AI+engineering+%26+agent+systems;Security+%26+risk+governance+(NIST+AI+RMF);Full-stack+development+%7C+TypeScript+%7C+Python;Local-first+tools+with+production+discipline)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1400&color=FF7AE5&center=true&vCenter=true&width=780&lines=AI+engineering+%26+agent+systems;Security+%26+risk+governance+(NIST+AI+RMF);Full-stack+%7C+TypeScript+%7C+Python+%7C+AWS+CDK;Local-first+tools+with+production+discipline)](https://git.io/typing-svg)
 
   <br/>
 
@@ -27,8 +27,8 @@
 
 - **AI engineering** — designing and shipping LLM/agent features: tools/MCP connectors, RAG, prompts/`AGENTS.md`, evals, and pre-/post-model validation gates
 - **AI security & governance** — access control, app-scoped credentials/PATs, blast-radius analysis, threat overlays, and assessments against the **NIST AI RMF Playbook**
-- **Software development** — TypeScript/Python systems with production habits: logging, monitoring, least privilege, and clear ownership
-- Comfortable from **local-first / on-prem tooling** to productized AI in real applications
+- **Software development** — TypeScript/Python systems with production habits: logging, monitoring, least privilege, and clear ownership — including **AWS CDK** infrastructure-as-code
+- Comfortable from **local-first / on-prem tooling** to cloud and productized AI in real applications
 - Open to collaboration on agent platforms, secure AI integrations, and governance automation
 
 ---
@@ -40,7 +40,7 @@
 | **AI Engineering** | Agent runtimes, tool calling, RAG, model routing, instruction layers, eval harnesses |
 | **AI Security** | Prompt injection (direct/indirect), tool-abuse containment, scoped tokens, output trust boundaries |
 | **Governance / RMF** | Inventory → measure → manage workflows mapped to NIST AI RMF (GOVERN / MAP / MEASURE / MANAGE) |
-| **Development** | Full-stack delivery, APIs, desktop/LAN services, CI, observability |
+| **Development** | Full-stack delivery, APIs, **AWS CDK** IaC, desktop/LAN services, CI, observability |
 
 ---
 
@@ -79,7 +79,7 @@
 
 <div align="center">
 
-  <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,bun,c,docker,linux,github,tailwind&theme=dark" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,bun,c,aws,docker,linux,github,tailwind&theme=dark" alt="skills" />
 
 </div>
 
@@ -103,6 +103,8 @@
 **Security & delivery**  
 ![Security](https://img.shields.io/badge/-App-scoped%20auth%20%2F%20PATs-0D1117?style=flat-square&logo=auth0&logoColor=FF7AE5)
 ![Threat](https://img.shields.io/badge/-Threat%20modeling-0D1117?style=flat-square&logo=shieldsdotio&logoColor=00F0FF)
+![AWS CDK](https://img.shields.io/badge/-AWS%20CDK-0D1117?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
+![AWS](https://img.shields.io/badge/-AWS-0D1117?style=flat-square&logo=amazonaws&logoColor=FF9900)
 ![Linux](https://img.shields.io/badge/-Linux-0D1117?style=flat-square&logo=linux&logoColor=FF7AE5)
 ![GitHub](https://img.shields.io/badge/-GitHub%20%2F%20CI-0D1117?style=flat-square&logo=github&logoColor=ffffff)
 ![Docker](https://img.shields.io/badge/-Docker-0D1117?style=flat-square&logo=docker&logoColor=00F0FF)
