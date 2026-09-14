@@ -10,13 +10,13 @@
 
   <br/>
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1400&color=FF7AE5&center=true&vCenter=true&width=860&lines=AI+engineering+%26+agent+systems;Bedrock+AI+security+automations+%7C+Wazuh;Linux+Sysmon+for+AI+developer+toolchains;Security+%26+NIST+AI+RMF+%7C+AWS+CDK)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1400&color=FF7AE5&center=true&vCenter=true&width=860&lines=AI+engineering+%26+agent+systems;Fail-closed+SOC+agent+skills;Bedrock+AI+security+automations+%7C+Wazuh;Linux+Sysmon+for+AI+developer+toolchains;Security+%26+NIST+AI+RMF+%7C+AWS+CDK)](https://git.io/typing-svg)
 
   <br/>
 
   [![GitHub](https://img.shields.io/badge/GitHub-NotoriousPOG-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NotoriousPOG)
-  [![AI Engineering](https://img.shields.io/badge/AI-Engineering-00F0FF?style=for-the-badge&logo=openai&logoColor=black)](https://github.com/NotoriousPOG/nist-ai-rmf-skill)
-  [![Security](https://img.shields.io/badge/Security-Bedrock%20%2B%20Wazuh-FF7AE5?style=for-the-badge&logo=shieldsdotio&logoColor=white)](https://github.com/NotoriousPOG)
+  [![SOC skills](https://img.shields.io/badge/SOC-Agent%20skills-00F0FF?style=for-the-badge&logo=shieldsdotio&logoColor=black)](https://github.com/NotoriousPOG/soc-agent-skills)
+  [![AI Engineering](https://img.shields.io/badge/AI-Engineering-FF7AE5?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/NotoriousPOG/nist-ai-rmf-skill)
   [![Profile views](https://komarev.com/ghpvc/?username=NotoriousPOG&color=00F0FF&style=for-the-badge)](https://github.com/NotoriousPOG)
 
 </div>
@@ -51,26 +51,27 @@
 
 <div align="center">
 
+  <a href="https://github.com/NotoriousPOG/soc-agent-skills">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NotoriousPOG&repo=soc-agent-skills&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA" alt="soc-agent-skills" />
+  </a>
   <a href="https://github.com/NotoriousPOG/nist-ai-rmf-skill">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=NotoriousPOG&repo=nist-ai-rmf-skill&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA" alt="nist-ai-rmf-skill" />
   </a>
+  <a href="https://github.com/NotoriousPOG/ai-standardization-matrix">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NotoriousPOG&repo=ai-standardization-matrix&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA" alt="ai-standardization-matrix" />
+  </a>
   <a href="https://github.com/NotoriousPOG/camera-weapon-detect">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=NotoriousPOG&repo=camera-weapon-detect&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA" alt="camera-weapon-detect" />
-  </a>
-  <a href="https://github.com/NotoriousPOG/label-printer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NotoriousPOG&repo=label-printer&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA" alt="label-printer" />
-  </a>
-  <a href="https://github.com/NotoriousPOG/player-and-base-live-data">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NotoriousPOG&repo=player-and-base-live-data&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA" alt="player-and-base-live-data" />
   </a>
 
 </div>
 
 | Project | Lens | Description |
 | --- | --- | --- |
+| [soc-agent-skills](https://github.com/NotoriousPOG/soc-agent-skills) | AI · Security · SOC | Fail-closed agent skills: look up IOCs without detonating lures, ingest advisories only with tools that exist, RAG over an operator corpus, route alerts to Slack/webhooks |
 | [nist-ai-rmf-skill](https://github.com/NotoriousPOG/nist-ai-rmf-skill) | AI · Security · Governance | Cursor skill for full **72/72 NIST AI RMF Playbook** assessments of product AI/LLM systems (inventory, blast radius, PATs, validators) |
+| [ai-standardization-matrix](https://github.com/NotoriousPOG/ai-standardization-matrix) | AI · Security · Evals | Maturity matrix for inspectable AI automation (schema, tools, RAG, bounds, human review). Walkthrough: [github.io](https://notoriouspog.github.io/ai-standardization-matrix/) |
 | [camera-weapon-detect](https://github.com/NotoriousPOG/camera-weapon-detect) | AI · CV · Ops | Local camera review pipeline with YOLO (optional LLM crop review) |
-| [label-printer](https://github.com/NotoriousPOG/label-printer) | Development | Production desktop app for network thermal label workflows |
 | [player-and-base-live-data](https://github.com/NotoriousPOG/player-and-base-live-data) | Development · Systems | Live JSON telemetry stream for Arma Reforger server state |
 | Linux Sysmon for AI toolchains | AI · Security · Endpoint | Custom **Sysmon for Linux** config + viewers/bridge patterns for developers building with AI (process/network tripwires for agents & MCP; auditd companion for sensitive reads) |
 
@@ -140,6 +141,7 @@
 <div align="center">
 
   <a href="https://github.com/NotoriousPOG"><img src="https://img.shields.io/badge/GitHub-NotoriousPOG-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/NotoriousPOG/soc-agent-skills"><img src="https://img.shields.io/badge/SOC%20agent%20skills-00F0FF?style=for-the-badge&logo=shieldsdotio&logoColor=black" alt="soc-agent-skills" /></a>
   <a href="https://github.com/NotoriousPOG/nist-ai-rmf-skill"><img src="https://img.shields.io/badge/AI%20RMF%20Skill-FF7AE5?style=for-the-badge&logo=readme&logoColor=white" alt="nist-ai-rmf-skill" /></a>
   <a href="https://www.nist.gov/itl/ai-risk-management-framework"><img src="https://img.shields.io/badge/NIST%20AI%20RMF-00F0FF?style=for-the-badge&logo=readme&logoColor=black" alt="NIST AI RMF" /></a>
 
