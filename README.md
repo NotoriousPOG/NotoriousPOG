@@ -10,7 +10,7 @@
 
   <br/>
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1400&color=FF7AE5&center=true&vCenter=true&width=860&lines=AI+engineering+%26+agent+systems;Fail-closed+SOC+agent+skills;Bedrock+AI+security+automations+%7C+Wazuh;Linux+Sysmon+for+AI+developer+toolchains;Security+%26+NIST+AI+RMF+%7C+AWS+CDK)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1400&color=FF7AE5&center=true&vCenter=true&width=860&lines=AI+engineering+%26+agent+systems;Fail-closed+SOC+agent+skills;Bedrock+AI+security+automations+%7C+Wazuh;Linux+Sysmon+for+AI+developer+toolchains;Security+%26+NIST+AI+RMF+%7C+AWS+CDK)](https://github.com/DenverCoder1/readme-typing-svg)
 
   <br/>
 
@@ -52,16 +52,16 @@
 <div align="center">
 
   <a href="https://github.com/NotoriousPOG/soc-agent-skills">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NotoriousPOG&repo=soc-agent-skills&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA" alt="soc-agent-skills" />
+    <img src="https://opengraph.githubassets.com/1/NotoriousPOG/soc-agent-skills" width="48%" alt="soc-agent-skills" />
   </a>
   <a href="https://github.com/NotoriousPOG/nist-ai-rmf-skill">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NotoriousPOG&repo=nist-ai-rmf-skill&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA" alt="nist-ai-rmf-skill" />
+    <img src="https://opengraph.githubassets.com/1/NotoriousPOG/nist-ai-rmf-skill" width="48%" alt="nist-ai-rmf-skill" />
   </a>
   <a href="https://github.com/NotoriousPOG/ai-standardization-matrix">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NotoriousPOG&repo=ai-standardization-matrix&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA" alt="ai-standardization-matrix" />
+    <img src="https://opengraph.githubassets.com/1/NotoriousPOG/ai-standardization-matrix" width="48%" alt="ai-standardization-matrix" />
   </a>
   <a href="https://github.com/NotoriousPOG/camera-weapon-detect">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NotoriousPOG&repo=camera-weapon-detect&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA" alt="camera-weapon-detect" />
+    <img src="https://opengraph.githubassets.com/1/NotoriousPOG/camera-weapon-detect" width="48%" alt="camera-weapon-detect" />
   </a>
 
 </div>
@@ -123,8 +123,8 @@
 
 <div align="center">
 
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NotoriousPOG&show_icons=true&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA&count_private=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotoriousPOG&layout=compact&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&text_color=E6E6FA" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=NotoriousPOG&show_icons=true&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&icon_color=00F0FF&text_color=E6E6FA&count_private=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=NotoriousPOG&layout=compact&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF7AE5&text_color=E6E6FA" alt="Top languages" />
 
 </div>
 
