@@ -10,11 +10,12 @@
 
   <br/>
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1400&color=FF7AE5&center=true&vCenter=true&width=860&lines=AI+engineering+%26+agent+systems;Fail-closed+SOC+agent+skills;Bedrock+AI+security+automations+%7C+Wazuh;Linux+Sysmon+for+AI+developer+toolchains;Security+%26+NIST+AI+RMF+%7C+AWS+CDK)](https://github.com/DenverCoder1/readme-typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1400&color=FF7AE5&center=true&vCenter=true&width=860&lines=AI+engineering+%26+agent+systems;8-week+AI+engineer+roadmap;Fail-closed+SOC+agent+skills;Bedrock+AI+security+automations+%7C+Wazuh;Linux+Sysmon+for+AI+developer+toolchains;Security+%26+NIST+AI+RMF+%7C+AWS+CDK)](https://github.com/DenverCoder1/readme-typing-svg)
 
   <br/>
 
   [![GitHub](https://img.shields.io/badge/GitHub-NotoriousPOG-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NotoriousPOG)
+  [![AI Roadmap](https://img.shields.io/badge/AI-Engineer%20Roadmap-FF7AE5?style=for-the-badge&logo=python&logoColor=white)](https://github.com/NotoriousPOG/ai-engineer-roadmap)
   [![SOC skills](https://img.shields.io/badge/SOC-Agent%20skills-00F0FF?style=for-the-badge&logo=shieldsdotio&logoColor=black)](https://github.com/NotoriousPOG/soc-agent-skills)
   [![AI Engineering](https://img.shields.io/badge/AI-Engineering-FF7AE5?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/NotoriousPOG/nist-ai-rmf-skill)
   [![Profile views](https://komarev.com/ghpvc/?username=NotoriousPOG&color=00F0FF&style=for-the-badge)](https://github.com/NotoriousPOG)
@@ -26,6 +27,7 @@
 ### About Me
 
 - **AI engineering** — designing and shipping LLM/agent features: tools/MCP connectors, RAG, prompts/`AGENTS.md`, evals, and pre-/post-model validation gates
+- Published an **[8-week AI Engineer Roadmap](https://github.com/NotoriousPOG/ai-engineer-roadmap)** — project-driven path from Python to production RAG, agents, MCP, evals, and deployment (runs offline by default)
 - **AI security & governance** — access control, app-scoped credentials/PATs, blast-radius analysis, threat overlays, and assessments against the **NIST AI RMF Playbook**
 - Built **custom AI security automations on Amazon Bedrock** and configured **Wazuh** dashboards for detection / SOC visibility
 - Authored a **custom Linux Sysmon config for developers building with AI** (Sysmon for Linux / eBPF telemetry for agent & MCP activity, with auditd companion coverage)
@@ -51,6 +53,9 @@
 
 <div align="center">
 
+  <a href="https://github.com/NotoriousPOG/ai-engineer-roadmap">
+    <img src="https://opengraph.githubassets.com/1/NotoriousPOG/ai-engineer-roadmap" width="48%" alt="ai-engineer-roadmap" />
+  </a>
   <a href="https://github.com/NotoriousPOG/soc-agent-skills">
     <img src="https://opengraph.githubassets.com/1/NotoriousPOG/soc-agent-skills" width="48%" alt="soc-agent-skills" />
   </a>
@@ -60,14 +65,12 @@
   <a href="https://github.com/NotoriousPOG/ai-standardization-matrix">
     <img src="https://opengraph.githubassets.com/1/NotoriousPOG/ai-standardization-matrix" width="48%" alt="ai-standardization-matrix" />
   </a>
-  <a href="https://github.com/NotoriousPOG/camera-weapon-detect">
-    <img src="https://opengraph.githubassets.com/1/NotoriousPOG/camera-weapon-detect" width="48%" alt="camera-weapon-detect" />
-  </a>
 
 </div>
 
 | Project | Lens | Description |
 | --- | --- | --- |
+| [ai-engineer-roadmap](https://github.com/NotoriousPOG/ai-engineer-roadmap) | AI · Education · Engineering | 8-week, project-driven curriculum from Python to production AI: RAG architectures, LangGraph, agents, MCP, evals, and deployment. Mock LLM by default so it runs without API keys. |
 | [sentinel-agent](https://github.com/NotoriousPOG/sentinel-agent) | AI · Security · SOC | SOC investigation agent. It accepts one alert, investigates with a closed set of tools, and writes a structured report. A human must approve the conclusion; it does not execute remediation. A local Floci walkthrough stores a synthetic GuardDuty finding and records approval only. Demo mode runs without an API key. |
 | [soc-agent-skills](https://github.com/NotoriousPOG/soc-agent-skills) | AI · Security · SOC | Fail-closed agent skills: look up IOCs without detonating lures, ingest advisories only with tools that exist, RAG over an operator corpus, route alerts to Slack/webhooks |
 | [nist-ai-rmf-skill](https://github.com/NotoriousPOG/nist-ai-rmf-skill) | AI · Security · Governance | Cursor skill for full **72/72 NIST AI RMF Playbook** assessments of product AI/LLM systems (inventory, blast radius, PATs, validators) |
@@ -142,6 +145,7 @@
 <div align="center">
 
   <a href="https://github.com/NotoriousPOG"><img src="https://img.shields.io/badge/GitHub-NotoriousPOG-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/NotoriousPOG/ai-engineer-roadmap"><img src="https://img.shields.io/badge/AI%20Engineer%20Roadmap-FF7AE5?style=for-the-badge&logo=python&logoColor=white" alt="ai-engineer-roadmap" /></a>
   <a href="https://github.com/NotoriousPOG/soc-agent-skills"><img src="https://img.shields.io/badge/SOC%20agent%20skills-00F0FF?style=for-the-badge&logo=shieldsdotio&logoColor=black" alt="soc-agent-skills" /></a>
   <a href="https://github.com/NotoriousPOG/nist-ai-rmf-skill"><img src="https://img.shields.io/badge/AI%20RMF%20Skill-FF7AE5?style=for-the-badge&logo=readme&logoColor=white" alt="nist-ai-rmf-skill" /></a>
   <a href="https://www.nist.gov/itl/ai-risk-management-framework"><img src="https://img.shields.io/badge/NIST%20AI%20RMF-00F0FF?style=for-the-badge&logo=readme&logoColor=black" alt="NIST AI RMF" /></a>
