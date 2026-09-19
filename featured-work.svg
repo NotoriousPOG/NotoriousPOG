@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" role="img" aria-label="Featured work mind map">
+  <title>Featured Work</title>
+  <defs>
+    <linearGradient id="centerFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1030"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="pinkStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF7AE5"/>
+      <stop offset="100%" stop-color="#00F0FF"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .bg { fill: #0D1117; }
+      .ring { fill: none; stroke: #1c2740; stroke-width: 1; }
+      .limb { fill: none; stroke: url(#pinkStroke); stroke-width: 1.6; opacity: 0.85; }
+      .twig { fill: none; stroke: #00F0FF; stroke-width: 1.2; opacity: 0.55; }
+      .hub { fill: url(#centerFill); stroke: url(#pinkStroke); stroke-width: 2; }
+      .hub-title { fill: #ffffff; font: 700 20px "Segoe UI", Ubuntu, sans-serif; text-anchor: middle; }
+      .hub-sub { fill: #A9B4D0; font: 400 11px "Segoe UI", Ubuntu, sans-serif; text-anchor: middle; }
+      .cat { fill: #111827; stroke: #00F0FF; stroke-width: 1.5; }
+      .cat-text { fill: #00F0FF; font: 650 13px "Segoe UI", Ubuntu, sans-serif; text-anchor: middle; }
+      .leaf { fill: #141b2d; stroke: #FF7AE5; stroke-width: 1.2; }
+      .leaf-text { fill: #E6E6FA; font: 600 12px "Segoe UI", Ubuntu, sans-serif; text-anchor: middle; }
+      .leaf-text-sm { fill: #E6E6FA; font: 600 11px "Segoe UI", Ubuntu, sans-serif; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1100" height="640" rx="18"/>
+  <circle class="ring" cx="550" cy="310" r="118"/>
+  <circle class="ring" cx="550" cy="310" r="210"/>
+  <circle class="ring" cx="550" cy="310" r="292"/>
+
+  <!-- limbs: hub to categories -->
+  <path class="limb" d="M470,250 C390,200 330,175 268,168"/>
+  <path class="limb" d="M630,250 C710,200 770,175 832,168"/>
+  <path class="limb" d="M455,350 C360,370 280,355 210,348"/>
+  <path class="limb" d="M645,350 C740,370 820,355 890,348"/>
+  <path class="limb" d="M550,390 C550,450 550,490 550,518"/>
+
+  <!-- twigs: categories to projects -->
+  <path class="twig" d="M268,148 C230,110 190,88 168,78"/>
+  <path class="twig" d="M248,168 C190,190 140,210 116,228"/>
+  <path class="twig" d="M832,148 C870,110 910,88 932,78"/>
+  <path class="twig" d="M852,168 C910,190 960,210 984,228"/>
+  <path class="twig" d="M210,328 C150,310 120,292 108,278"/>
+  <path class="twig" d="M890,328 C950,310 980,292 992,278"/>
+  <path class="twig" d="M550,538 C470,575 410,592 372,598"/>
+  <path class="twig" d="M550,538 C630,575 690,592 728,598"/>
+
+  <!-- hub -->
+  <rect class="hub" x="430" y="262" width="240" height="96" rx="18" filter="url(#glow)"/>
+  <text class="hub-title" x="550" y="306">Featured Work</text>
+  <text class="hub-sub" x="550" y="328">AI engineering · security · systems</text>
+
+  <!-- category nodes -->
+  <rect class="cat" x="178" y="148" width="180" height="40" rx="12"/>
+  <text class="cat-text" x="268" y="173">AI Engineering</text>
+
+  <rect class="cat" x="742" y="148" width="180" height="40" rx="12"/>
+  <text class="cat-text" x="832" y="173">AI Security</text>
+
+  <rect class="cat" x="128" y="328" width="164" height="40" rx="12"/>
+  <text class="cat-text" x="210" y="353">Computer Vision</text>
+
+  <rect class="cat" x="808" y="328" width="164" height="40" rx="12"/>
+  <text class="cat-text" x="890" y="353">Governance</text>
+
+  <rect class="cat" x="468" y="518" width="164" height="40" rx="12"/>
+  <text class="cat-text" x="550" y="543">Systems</text>
+
+  <!-- project leaves -->
+  <rect class="leaf" x="48" y="52" width="210" height="36" rx="10"/>
+  <text class="leaf-text" x="153" y="75">ai-engineer-roadmap</text>
+
+  <rect class="leaf" x="16" y="212" width="186" height="36" rx="10"/>
+  <text class="leaf-text" x="109" y="235">nist-ai-rmf-skill</text>
+
+  <rect class="leaf" x="842" y="52" width="186" height="36" rx="10"/>
+  <text class="leaf-text" x="935" y="75">sentinel-agent</text>
+
+  <rect class="leaf" x="898" y="212" width="186" height="36" rx="10"/>
+  <text class="leaf-text" x="991" y="235">soc-agent-skills</text>
+
+  <rect class="leaf" x="18" y="258" width="210" height="36" rx="10"/>
+  <text class="leaf-text-sm" x="123" y="281">camera-weapon-detect</text>
+
+  <rect class="leaf" x="872" y="258" width="210" height="36" rx="10"/>
+  <text class="leaf-text-sm" x="977" y="281">standardization-matrix</text>
+
+  <rect class="leaf" x="214" y="582" width="220" height="36" rx="10"/>
+  <text class="leaf-text-sm" x="324" y="605">player-and-base-live-data</text>
+
+  <rect class="leaf" x="666" y="582" width="186" height="36" rx="10"/>
+  <text class="leaf-text" x="759" y="605">Linux Sysmon</text>
+</svg>

@@ -53,24 +53,29 @@
 
 <div align="center">
 
-  <a href="https://github.com/NotoriousPOG/ai-engineer-roadmap">
-    <img src="https://opengraph.githubassets.com/1/NotoriousPOG/ai-engineer-roadmap" width="48%" alt="ai-engineer-roadmap" />
-  </a>
-  <a href="https://github.com/NotoriousPOG/soc-agent-skills">
-    <img src="https://opengraph.githubassets.com/1/NotoriousPOG/soc-agent-skills" width="48%" alt="soc-agent-skills" />
-  </a>
-  <a href="https://github.com/NotoriousPOG/nist-ai-rmf-skill">
-    <img src="https://opengraph.githubassets.com/1/NotoriousPOG/nist-ai-rmf-skill" width="48%" alt="nist-ai-rmf-skill" />
-  </a>
-  <a href="https://github.com/NotoriousPOG/ai-standardization-matrix">
-    <img src="https://opengraph.githubassets.com/1/NotoriousPOG/ai-standardization-matrix" width="48%" alt="ai-standardization-matrix" />
-  </a>
+  <img src="./featured-work.svg" alt="Mind map of featured work: AI engineering, AI security, computer vision, governance, and systems" width="100%" />
 
 </div>
 
+<p align="center">
+  <a href="https://github.com/NotoriousPOG/ai-engineer-roadmap">ai-engineer-roadmap</a>
+  ·
+  <a href="https://github.com/NotoriousPOG/nist-ai-rmf-skill">nist-ai-rmf-skill</a>
+  ·
+  <a href="https://github.com/NotoriousPOG/sentinel-agent">sentinel-agent</a>
+  ·
+  <a href="https://github.com/NotoriousPOG/soc-agent-skills">soc-agent-skills</a>
+  ·
+  <a href="https://github.com/NotoriousPOG/camera-weapon-detect">camera-weapon-detect</a>
+  ·
+  <a href="https://github.com/NotoriousPOG/ai-standardization-matrix">ai-standardization-matrix</a>
+  ·
+  <a href="https://github.com/NotoriousPOG/player-and-base-live-data">player-and-base-live-data</a>
+</p>
+
 | Project | Lens | Description |
 | --- | --- | --- |
-| [ai-engineer-roadmap](https://github.com/NotoriousPOG/ai-engineer-roadmap) | AI · Education · Engineering | 8-week, project-driven curriculum from Python to production AI: RAG architectures, LangGraph, agents, MCP, evals, and deployment. Mock LLM by default so it runs without API keys. |
+| [ai-engineer-roadmap](https://github.com/NotoriousPOG/ai-engineer-roadmap) | AI · Education · Engineering | 8-week, project-driven curriculum from Python to production AI: RAG architectures, LangGraph, agents, MCP, evals, and deployment. Runs locally without a paid API. |
 | [sentinel-agent](https://github.com/NotoriousPOG/sentinel-agent) | AI · Security · SOC | SOC investigation agent. It accepts one alert, investigates with a closed set of tools, and writes a structured report. A human must approve the conclusion; it does not execute remediation. A local Floci walkthrough stores a synthetic GuardDuty finding and records approval only. Demo mode runs without an API key. |
 | [soc-agent-skills](https://github.com/NotoriousPOG/soc-agent-skills) | AI · Security · SOC | Fail-closed agent skills: look up IOCs without detonating lures, ingest advisories only with tools that exist, RAG over an operator corpus, route alerts to Slack/webhooks |
 | [nist-ai-rmf-skill](https://github.com/NotoriousPOG/nist-ai-rmf-skill) | AI · Security · Governance | Cursor skill for full **72/72 NIST AI RMF Playbook** assessments of product AI/LLM systems (inventory, blast radius, PATs, validators) |
