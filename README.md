@@ -68,7 +68,7 @@
 
 | Project | Lens | Description |
 | --- | --- | --- |
-| [sentinel-agent](https://github.com/NotoriousPOG/sentinel-agent) | AI · Security · SOC | SOC investigation agent. It accepts one alert, investigates with a closed set of tools, and writes a structured report. A human must approve the conclusion; it does not execute remediation. Demo mode runs without an API key and uses a scripted planner plus labeled mocks. |
+| [sentinel-agent](https://github.com/NotoriousPOG/sentinel-agent) | AI · Security · SOC | SOC investigation agent. It accepts one alert, investigates with a closed set of tools, and writes a structured report. A human must approve the conclusion; it does not execute remediation. A local Floci walkthrough stores a synthetic GuardDuty finding and records approval only. Demo mode runs without an API key. |
 | [soc-agent-skills](https://github.com/NotoriousPOG/soc-agent-skills) | AI · Security · SOC | Fail-closed agent skills: look up IOCs without detonating lures, ingest advisories only with tools that exist, RAG over an operator corpus, route alerts to Slack/webhooks |
 | [nist-ai-rmf-skill](https://github.com/NotoriousPOG/nist-ai-rmf-skill) | AI · Security · Governance | Cursor skill for full **72/72 NIST AI RMF Playbook** assessments of product AI/LLM systems (inventory, blast radius, PATs, validators) |
 | [ai-standardization-matrix](https://github.com/NotoriousPOG/ai-standardization-matrix) | AI · Security · Evals | Maturity matrix for inspectable AI automation (schema, tools, RAG, bounds, human review). Walkthrough: [github.io](https://notoriouspog.github.io/ai-standardization-matrix/) |
