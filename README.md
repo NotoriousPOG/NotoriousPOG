@@ -53,7 +53,14 @@
 
 <div align="center">
 
-  <img src="./featured-work.svg" alt="Mind map of featured work: AI engineering, AI security, computer vision, governance, and systems" width="100%" />
+  <a href="https://notoriouspog.github.io/NotoriousPOG/">
+    <img src="./featured-work.svg" alt="Interactive mind map of featured work. Click to hover and open repositories." width="100%" />
+  </a>
+  <br/>
+  <sub>
+    GitHub READMEs cannot run scripts, so node hover lives on the
+    <a href="https://notoriouspog.github.io/NotoriousPOG/">interactive map</a>.
+  </sub>
 
 </div>
 

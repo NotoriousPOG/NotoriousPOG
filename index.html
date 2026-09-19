@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Featured Work — Stephen Starr</title>
+  <style>
+    :root {
+      --bg: #07080d;
+      --panel: #0d1117;
+      --text: #e6e6fa;
+      --muted: #a9b4d0;
+      --cyan: #00f0ff;
+      --pink: #ff7ae5;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background: radial-gradient(1200px 600px at 50% -10%, #1a1030 0%, var(--bg) 55%);
+      color: var(--text);
+      font: 16px/1.5 "Segoe UI", Ubuntu, system-ui, sans-serif;
+    }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 20px 48px;
+    }
+    header { text-align: center; margin-bottom: 18px; }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.6rem;
+      letter-spacing: 0.02em;
+    }
+    .lede {
+      margin: 0 auto;
+      max-width: 42rem;
+      color: var(--muted);
+    }
+    .map-wrap {
+      border: 1px solid #1c2740;
+      border-radius: 18px;
+      overflow: hidden;
+      background: var(--panel);
+      box-shadow: 0 0 40px rgba(0, 240, 255, 0.08);
+    }
+    .map-wrap object, .map-wrap svg { display: block; width: 100%; height: auto; }
+    #panel {
+      margin-top: 18px;
+      min-height: 7.2rem;
+      padding: 16px 18px;
+      border-radius: 14px;
+      border: 1px solid #1c2740;
+      background: rgba(13, 17, 23, 0.9);
+    }
+    #panel .kicker {
+      color: var(--cyan);
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    #panel h2 {
+      margin: 4px 0 6px;
+      font-size: 1.15rem;
+    }
+    #panel p { margin: 0; color: var(--muted); }
+    #panel a {
+      color: var(--pink);
+      text-decoration: none;
+      font-weight: 650;
+    }
+    #panel a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 22px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer a { color: var(--cyan); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Featured Work</h1>
+      <p class="lede">Hover a node for the summary. Click it to open the repository.</p>
+    </header>
+
+    <div class="map-wrap">
+      <object id="map" type="image/svg+xml" data="./featured-work.svg" aria-label="Featured work mind map">
+        Interactive map failed to load.
+        <a href="https://github.com/NotoriousPOG">View GitHub profile</a>
+      </object>
+    </div>
+
+    <section id="panel" aria-live="polite">
+      <div class="kicker">Project</div>
+      <h2>Pick a node</h2>
+      <p>AI engineering, security, computer vision, governance, and systems work.</p>
+    </section>
+
+    <footer>
+      <a href="https://github.com/NotoriousPOG">github.com/NotoriousPOG</a>
+    </footer>
+  </main>
+
+  <script>
+    const projects = {
+      "ai-engineer-roadmap": {
+        lens: "AI · Education · Engineering",
+        blurb: "8-week, project-driven curriculum from Python to production RAG, agents, MCP, evals, and deployment.",
+        url: "https://github.com/NotoriousPOG/ai-engineer-roadmap"
+      },
+      "nist-ai-rmf-skill": {
+        lens: "AI · Security · Governance",
+        blurb: "Cursor skill for full 72/72 NIST AI RMF Playbook assessments of product AI/LLM systems.",
+        url: "https://github.com/NotoriousPOG/nist-ai-rmf-skill"
+      },
+      "sentinel-agent": {
+        lens: "AI · Security · SOC",
+        blurb: "SOC investigation agent with a closed tool set and mandatory human approval. No autonomous remediation.",
+        url: "https://github.com/NotoriousPOG/sentinel-agent"
+      },
+      "soc-agent-skills": {
+        lens: "AI · Security · SOC",
+        blurb: "Fail-closed agent skills for IOC lookup, advisory ingest, operator RAG, and alert routing.",
+        url: "https://github.com/NotoriousPOG/soc-agent-skills"
+      },
+      "camera-weapon-detect": {
+        lens: "AI · CV · Ops",
+        blurb: "Local camera review pipeline with YOLO and optional LLM crop review.",
+        url: "https://github.com/NotoriousPOG/camera-weapon-detect"
+      },
+      "standardization-matrix": {
+        lens: "AI · Security · Evals",
+        blurb: "Maturity matrix for inspectable AI automation: schema, tools, RAG, bounds, human review.",
+        url: "https://github.com/NotoriousPOG/ai-standardization-matrix"
+      },
+      "player-and-base-live-data": {
+        lens: "Development · Systems",
+        blurb: "Live JSON telemetry stream for Arma Reforger server state.",
+        url: "https://github.com/NotoriousPOG/player-and-base-live-data"
+      },
+      "Linux Sysmon": {
+        lens: "AI · Security · Endpoint",
+        blurb: "Custom Sysmon for Linux config for AI developer toolchains (agents, skills, MCP).",
+        url: null
+      }
+    };
+
+    const panel = document.getElementById("panel");
+
+    function show(name) {
+      const item = projects[name];
+      if (!item) return;
+      const title = item.url
+        ? `<a href="${item.url}">${name}</a>`
+        : name;
+      panel.innerHTML = `
+        <div class="kicker">${item.lens}</div>
+        <h2>${title}</h2>
+        <p>${item.blurb}</p>
+      `;
+    }
+
+    function bind(svgDoc) {
+      svgDoc.querySelectorAll("a").forEach((node) => {
+        const label = (node.querySelector("text") || {}).textContent || "";
+        node.addEventListener("mouseenter", () => show(label.trim()));
+        node.addEventListener("focus", () => show(label.trim()));
+      });
+      const sysmon = [...svgDoc.querySelectorAll("g title")].find((el) =>
+        el.textContent.includes("Linux Sysmon")
+      );
+      if (sysmon && sysmon.parentElement) {
+        sysmon.parentElement.addEventListener("mouseenter", () => show("Linux Sysmon"));
+      }
+    }
+
+    const objectEl = document.getElementById("map");
+    objectEl.addEventListener("load", () => {
+      const svgDoc = objectEl.contentDocument;
+      if (svgDoc) bind(svgDoc);
+    });
+  </script>
+</body>
+</html>
