@@ -65,6 +65,8 @@
 </div>
 
 <p align="center">
+  <a href="https://github.com/NotoriousPOG/semantic-fraud-association">semantic-fraud-association</a>
+  &middot;
   <a href="https://github.com/NotoriousPOG/ai-engineer-roadmap">ai-engineer-roadmap</a>
   ·
   <a href="https://github.com/NotoriousPOG/nist-ai-rmf-skill">nist-ai-rmf-skill</a>
@@ -82,6 +84,7 @@
 
 | Project | Lens | Description |
 | --- | --- | --- |
+| [semantic-fraud-association](https://github.com/NotoriousPOG/semantic-fraud-association) | AI / Security / Payments | Agent skill for payment-fraud investigations and vendor-neutral SIEM detection design. Connects payments, IP locations, and contextual evidence; includes guarded Stripe CLI collection, execution receipts, and 18 synthetic regression tests. |
 | [ai-engineer-roadmap](https://github.com/NotoriousPOG/ai-engineer-roadmap) | AI · Education · Engineering | 8-week, project-driven curriculum from Python to production AI: RAG architectures, LangGraph, agents, MCP, evals, and deployment. Runs locally without a paid API. |
 | [sentinel-agent](https://github.com/NotoriousPOG/sentinel-agent) | AI · Security · SOC | SOC investigation agent. It accepts one alert, investigates with a closed set of tools, and writes a structured report. A human must approve the conclusion; it does not execute remediation. A local Floci walkthrough stores a synthetic GuardDuty finding and records approval only. Demo mode runs without an API key. |
 | [soc-agent-skills](https://github.com/NotoriousPOG/soc-agent-skills) | AI · Security · SOC | Fail-closed agent skills: look up IOCs without detonating lures, ingest advisories only with tools that exist, RAG over an operator corpus, route alerts to Slack/webhooks |
